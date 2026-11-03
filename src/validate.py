@@ -3,7 +3,7 @@ class Validator:
     @staticmethod
     def is_valid(board, row, col, num):
         # Check if num is not in the current row or column
-        for x in range(Board.SIZE):
+        for x in range(board.SIZE):
             if board.get(row, x) == num or board.get(x, col) == num:
                 return False
 
