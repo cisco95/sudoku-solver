@@ -1,4 +1,4 @@
-from validate import Validator
+from .validate import Validator
 
 class Solver:
     def solve(self, board):
